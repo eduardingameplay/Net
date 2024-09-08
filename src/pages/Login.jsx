@@ -39,7 +39,7 @@ export default function Login() {
                     <input className="px-32 mr-4 rounded-[4px] opacity-75 bg-gray-900 py-4 border-2 border-white" type="Email" />
                     <div>
                         <button className="bg-red-600 border-[1px] border-red-600 px-8 py-[10px] rounded-[4px] hover:text-gray-100  hover:bg-red-800 text-white font-semibold">
-                            <p className="text-[24px]">Vamos lá > </p>
+                            <p className="text-[24px]">Vamos lá  </p>
                         </button>
                         
                     </div>
