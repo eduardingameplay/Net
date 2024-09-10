@@ -49,11 +49,11 @@ export default function Login() {
         </div>
 
         
-        <div className=" flex justify-center pt-14">
+        <div className="justify-center col-1 ">
 
             <div className=" flex justify-between items-center px-64  text-white"> 
                 <img className=" w-32 mr-8"src={pipoca} alt="pipoca" />
-                <div className=" px-10 py-4 bg-purple-500 flex rounded-[10px]">
+                <div className="bg-gradient-to-r from-purple-900 via-indigo-950 to-indigo-950 px-10 py-4 flex rounded-[10px]">
                     <div className="group">
                         <h3 className="text-[32px]">A Netflix que você adora por apenas R$ 20,90.</h3>
                         <p className="text-[20px]">Aproveite nossa opção mais acessível, o plano com anúncios.</p>
@@ -65,8 +65,38 @@ export default function Login() {
                 </div>
                 
             </div>
-            <div>
-                <h1></h1>
+
+
+
+            <div className="mt-20">
+                <h1 className="text-white ml-[250px] text-[52px] font-bold">Mais motivos para assinar</h1>
+            </div>
+
+            <div className="flex justify-center">
+                <div className="bg-blue-900">
+                    <h3>aaaaaaaaaaaaaaaa</h3>
+                    <p></p>
+                    <img src="" alt="" />
+                </div>
+                    
+                <div className="bg-blue-900 mx-5">
+                    <h3>aaaaaaaaaaaaaaaa</h3>
+                    <p></p>
+                    <img src="" alt="" />
+                </div>
+
+                <div className="bg-blue-900 mx-5">
+                    <h3>aaaaaaaaaaaaaaaa</h3>
+                    <p></p>
+                    <img src="" alt="" />
+                </div>
+                  
+                <div className="bg-blue-900">
+                    <h3>aaaaaaaaaaaaaaaa</h3>
+                    <p></p>
+                    <img src="" alt="" />
+                </div>
+
             </div>
 
 
