@@ -48,17 +48,26 @@ export default function Login() {
             
         </div>
 
-        <div className=" flex justify-center">
-            <img className="w-32 mr-4"src={pipoca} alt="pipoca" />
+        
+        <div className=" flex justify-center pt-14">
 
-            <div className="bg-purple-500 flex justify-between items-center px-64 text-white"> 
-                <div className="group">
-                    <h3 className="text-[32px]">A Netflix que você adora por apenas R$ 20,90.</h3>
-                    <p className="text-[20px]">Aproveite nossa opção mais acessível, o plano com anúncios.</p>
+            <div className=" flex justify-between items-center px-64  text-white"> 
+                <img className=" w-32 mr-8"src={pipoca} alt="pipoca" />
+                <div className=" px-10 py-4 bg-purple-500 flex rounded-[10px]">
+                    <div className="group">
+                        <h3 className="text-[32px]">A Netflix que você adora por apenas R$ 20,90.</h3>
+                        <p className="text-[20px]">Aproveite nossa opção mais acessível, o plano com anúncios.</p>
+                    </div>
+                    
+                    <div>
+                        <button className="text-[24px] bg-gray-700 px-10 mx-6 py-2 mt-4 ml-48 rounded-[10px] ">Saiba mais</button>
+                    </div>
                 </div>
-                <button className="bg-gray-500 px-10 mx-4">Saiba mais</button>
+                
             </div>
-
+            <div>
+                <h1></h1>
+            </div>
 
 
 
